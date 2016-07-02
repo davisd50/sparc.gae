@@ -34,8 +34,14 @@ setup(name='sparc.gae',
       install_requires=[
           'setuptools',
           'pyramid',
-          'zope.component',
+          'repoze.lru',
           'zope.interface',
+          'zope.deprecation',
+          'venusian',
+          'translationstring',
+          'jinja2',
+          'webob',
+          'zope.component'
           # -*- Extra requirements: -*-
       ],
       tests_require=[
