@@ -33,6 +33,7 @@ setup(name='sparc.gae',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'pyramid',
           'zope.component',
           'zope.interface',
           # -*- Extra requirements: -*-
